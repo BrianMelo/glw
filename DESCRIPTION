@@ -1,0 +1,22 @@
+Package: glw
+Type: Package
+Title: Fits the Glw Finite Mixture to Censored Data
+Version: 0.0.0.9000
+Date: 2016-04-18
+Authors@R: person('Brian', 'Melo', email='brian.rmelo@gmail.com', role=c('aut', 'cre'))
+Description: Fits regression models, under the Bayesian approach,
+    for censored and complete data considering a finite mixture of the Gamma,
+    Lognormal and Weibull (or any combinations of these three) distributions
+    for the response variable.
+Suggests:
+    NA,
+    testthat,
+    knitr,
+    rmarkdown,
+    R.rsp
+License: MIT + file LICENSE
+Imports:
+    TeachingDemos, stats
+RoxygenNote: 5.0.1
+Depends: stats
+VignetteBuilder: R.rsp
